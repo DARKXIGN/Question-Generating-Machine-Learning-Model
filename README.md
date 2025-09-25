@@ -19,7 +19,7 @@
 ├── kobart_question_generation_fixed.ipynb
 └── README.md
 ```
-> `kobart_question_generation_fixed.ipynb` 는 `model.generate(` json 파일을 수정한 버전입니다.
+> `kobart_question_generation_fixed.ipynb` 는 `metadata.widgets` json 파일을 수정한 버전입니다.
 
 ---
 
