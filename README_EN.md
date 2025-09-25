@@ -55,7 +55,7 @@ model.to(device)
 model.eval()
 ```
 
-### 2) Question Generation Function (Fixed Example)
+### 2) Question Generation Function
 ```python
 def generate_multiple_questions(model, tokenizer, contexts, max_length=64, num_questions=3):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
