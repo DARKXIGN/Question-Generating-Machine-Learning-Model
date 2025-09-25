@@ -54,7 +54,7 @@ model.to(device)
 model.eval()
 ```
 
-### 2) 질문 생성 함수 (수정된 버전 예시)
+### 2) 질문 생성 함수
 ```python
 def generate_multiple_questions(model, tokenizer, contexts, max_length=64, num_questions=3):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
